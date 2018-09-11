@@ -1,10 +1,10 @@
 branch-defaults:
   master:
-    environment: dekker-arc-dev
+    environment: DekkerArc-Dev
 environment-defaults:
   dekker-arc-dev:
-    branch: master
-    repository: dekker-arc
+    branch: null
+    repository: null
 global:
   application_name: dekker-arc
   default_ec2_keyname: null
