@@ -1,13 +1,13 @@
 branch-defaults:
   master:
-    environment: DekkerArc-Dev
+    environment: dekker-arc-dev
 environment-defaults:
   dekker-arc-dev:
     branch: null
     repository: null
 global:
   application_name: dekker-arc
-  default_ec2_keyname: null
+  default_ec2_keyname: dekker-tech-horizons-key
   default_platform: arn:aws:elasticbeanstalk:eu-west-2::platform/Node.js running on
     64bit Amazon Linux/4.5.3
   default_region: eu-west-2
